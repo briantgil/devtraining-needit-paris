@@ -10,13 +10,13 @@
         <condition_type>script</condition_type>
         <confirm_label/>
         <confirmation_message/>
-        <context>global</context>
+        <context>record</context>
         <description/>
         <destination_alp/>
         <destination_screen/>
         <destination_type>screen</destination_type>
         <external_browser>false</external_browser>
-        <failure_message>We are sorry, but we were unable to create the NeedIt record.  Please contact a system administrator.</failure_message>
+        <failure_message>failed</failure_message>
         <field_name/>
         <hide_buttons/>
         <hide_fields/>
@@ -27,7 +27,7 @@
         <mail_address/>
         <mail_content/>
         <mail_subject/>
-        <name>New NeedIt</name>
+        <name>Custom Tasks</name>
         <offline>false</offline>
         <offline_template_field/>
         <offline_template_field_table/>
@@ -42,28 +42,28 @@
         <show_buttons/>
         <show_confirmation>false</show_confirmation>
         <show_fields/>
-        <show_refresh_on_previous>true</show_refresh_on_previous>
+        <show_refresh_on_previous>false</show_refresh_on_previous>
         <show_signature>false</show_signature>
         <sms/>
-        <success_message>NeedIt record created</success_message>
+        <success_message>completed</success_message>
         <sys_class_name>sys_sg_button</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 16:35:33</sys_created_on>
-        <sys_id>548f25582f0e20109a03e33df699b67e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>New NeedIt</sys_name>
+        <sys_created_on>2021-02-26 05:31:31</sys_created_on>
+        <sys_id>712cf5752f2a20109a03e33df699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Tasks</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_sg_button_548f25582f0e20109a03e33df699b67e</sys_update_name>
+        <sys_update_name>sys_sg_button_712cf5752f2a20109a03e33df699b6ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 18:36:02</sys_updated_on>
-        <table>x_58872_needit_needit</table>
+        <sys_updated_on>2021-02-26 05:31:31</sys_updated_on>
+        <table>x_58872_needit_task_category_lookup</table>
         <take_value_from_field>false</take_value_from_field>
         <type>write_back</type>
         <use_overlay>false</use_overlay>
-        <write_back_action_item display_value="Create NeedIt">cb5fd99c2fca20109a03e33df699b6d7</write_back_action_item>
+        <write_back_action_item display_value="Custom Tasks">7659f1f12f2a20109a03e33df699b694</write_back_action_item>
         <zombified_screens/>
     </sys_sg_button>
-    <sys_translated_text action="delete_multiple" query="documentkey=548f25582f0e20109a03e33df699b67e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=712cf5752f2a20109a03e33df699b6ec"/>
 </record_update>
