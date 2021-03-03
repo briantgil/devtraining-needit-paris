@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="task_category_lookup" max_length="40" name="x_58872_needit_task_category_lookup" type="collection">
+    <element label="task_category_lookup" max_length="40" name="x_58872_needit_task_category_lookup" sizeclass="2" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="task category" max_length="40" name="task_category" type="string"/>
         <element label="task name" max_length="40" name="task_name" type="string"/>
